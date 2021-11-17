@@ -25,7 +25,7 @@ In addition to the above citations, you can use this dataset under the license i
 
 ## Contents of the dataset
  
-Large CSV files are compressed in Zip; you can unzip all the files using unzip-all.sh. The following list is the output of list-contents.sh.
+Some large CSV files are compressed in Zip; you can unzip all the files using unzip-all.sh. The following list is the output of list-contents.sh.
 
 ```
 ===================
