@@ -23,7 +23,7 @@ When using this dataset in your research or other purpose, please cite the follo
 In addition to the above citations, you can use this dataset under the license in [Creative Commons Attribution-NoDerivatives 4.0 International (CC BY-ND 4.0)](https://creativecommons.org/licenses/by-nd/4.0/).
 
 
-## Contents of the dataset
+## Contents
  
 Some large CSV files are compressed in Zip; you can unzip all the files using unzip-all.sh. The following list is the output of list-contents.sh.
 
