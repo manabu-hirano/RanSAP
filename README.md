@@ -9,14 +9,14 @@ Although machine learning and deep learning have become essential components of 
 
 For more detail about the dataset, you can read the following open access paper.
 
-- M. Hirano, R. Hodota, and R. Kobayashi. "RanSAP: An Open Dataset of Ransomware Storage Access Patterns for Training Machine Learning Models." Forensic Science International: Digital Investigation, 2021. (To appear)
+- M. Hirano, R. Hodota, and R. Kobayashi. "RanSAP: An Open Dataset of Ransomware Storage Access Patterns for Training Machine Learning Models." Forensic Science International: Digital Investigation, 2021.
 
 
 ## Terms of use / License
 
 When using this dataset in your research or other purpose, please cite the following papers:
 
-- M. Hirano, R. Hodota, and R. Kobayashi. "RanSAP: An Open Dataset of Ransomware Storage Access Patterns for Training Machine Learning Models." Forensic Science International: Digital Investigation, 2021. (To appear)
+- M. Hirano, R. Hodota, and R. Kobayashi. "RanSAP: An Open Dataset of Ransomware Storage Access Patterns for Training Machine Learning Models." Forensic Science International: Digital Investigation, 2021.
 
 - M. Hirano and R. Kobayashi, "Machine Learning Based Ransomware Detection Using Storage Access Patterns Obtained From Live-forensic Hypervisor," 2019 Sixth International Conference on Internet of Things: Systems, Management and Security (IOTSMS), 2019, pp. 1-6, doi: 10.1109/IOTSMS48152.2019.8939214.
 
