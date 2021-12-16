@@ -24,7 +24,7 @@ In addition to the above citations, you can use this dataset under the license i
 
 ## Bulk Download
 
-You can clone this repository, or bulk download the dataset in a single Zip file from the following link.
+You can clone this repository, or bulk download the dataset in a single .tgz file from the following link.
 - https://kosenjp-my.sharepoint.com/:u:/g/personal/hirano_manabu_toyota_kosen-ac_jp/ESN5o9PvRLNOiCEKJ_1wBfYBl3b_05trKZ4Raxb0GnRcNQ
 
 ## Contents
