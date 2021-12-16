@@ -4,24 +4,28 @@
 
 Although machine learning and deep learning have become essential components of today's security systems, the lack of a standard and realistic open dataset has made the development of such systems slower and harder. We provide RanSAP, an open dataset of ransomware storage access patterns, to help the development of ML-based ransomware detection systems. The dataset consists of storage access patterns of 7 well-publicized ransomware samples and 5 benign software samples, those of 21 ransomware variants, those on a different version of an operating system, and those on a storage device with full drive encryption (BitLocker) using various types of and various sizes of storage devices.
 
-
 ## For more detail
 
 For more detail about the dataset, you can read the following open access paper.
 
-- M. Hirano, R. Hodota, and R. Kobayashi. "RanSAP: An Open Dataset of Ransomware Storage Access Patterns for Training Machine Learning Models." Forensic Science International: Digital Investigation, 2021.
-
+- M. Hirano, R. Hodota, R. Kobayashi, "RanSAP: An open dataset of ransomware storage access patterns for training machine learning models,
+Forensic Science International: Digital Investigation, Volume 40, 2022, https://doi.org/10.1016/j.fsidi.2021.301314.
 
 ## Terms of use / License
 
 When using this dataset in your research or other purpose, please cite the following papers:
 
-- M. Hirano, R. Hodota, and R. Kobayashi. "RanSAP: An Open Dataset of Ransomware Storage Access Patterns for Training Machine Learning Models." Forensic Science International: Digital Investigation, 2021.
+- M. Hirano, R. Hodota, R. Kobayashi, "RanSAP: An open dataset of ransomware storage access patterns for training machine learning models,
+Forensic Science International: Digital Investigation, Volume 40, 2022, https://doi.org/10.1016/j.fsidi.2021.301314.
 
-- M. Hirano and R. Kobayashi, "Machine Learning Based Ransomware Detection Using Storage Access Patterns Obtained From Live-forensic Hypervisor," 2019 Sixth International Conference on Internet of Things: Systems, Management and Security (IOTSMS), 2019, pp. 1-6, doi: 10.1109/IOTSMS48152.2019.8939214.
+- M. Hirano and R. Kobayashi, "Machine Learning Based Ransomware Detection Using Storage Access Patterns Obtained From Live-forensic Hypervisor," 2019 Sixth International Conference on Internet of Things: Systems, Management and Security (IOTSMS), 2019, pp. 1-6, https://doi.org/10.1109/IOTSMS48152.2019.8939214.
 
 In addition to the above citations, you can use this dataset under the license in [Creative Commons Attribution-NoDerivatives 4.0 International (CC BY-ND 4.0)](https://creativecommons.org/licenses/by-nd/4.0/).
 
+## Bulk Download
+
+You can clone this repository, or bulk download the dataset in a single Zip file from the following link.
+- https://kosenjp-my.sharepoint.com/:u:/g/personal/hirano_manabu_toyota_kosen-ac_jp/ESN5o9PvRLNOiCEKJ_1wBfYBl3b_05trKZ4Raxb0GnRcNQ
 
 ## Contents
  
