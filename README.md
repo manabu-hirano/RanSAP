@@ -55,3 +55,20 @@ NUMBER OF CSV FILES: ./dataset/
 	  1044	 (CSV	  711	 ZIP	  333 )	 original
 ```
 
+## CSV format
+
+ata_read.csv
+
+```
+UNIX time in sec, UNIX time in ns, LBA, size
+1606365711,286027575,6055802,4096
+```
+
+ata_write.csv
+
+```
+UNIX time in sec, UNIX time in ns, LBA, size, Entropy #1, Entropy #2
+1606365710,396368633,6571032,4096,0.32472664320367545,0.259486312315601
+```
+
+Note: we did not use Entropy #2 in our paper
