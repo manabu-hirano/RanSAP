@@ -31,16 +31,16 @@ You can clone this repository, or bulk download the dataset in a single .tgz fil
 
 Alternatively, you can download the following smaller 10 split files (3GB each) and then concatenate them to create RanSAP.tgz (29.2GB).
 
-https://kosenjp-my.sharepoint.com/:u:/g/personal/hirano_manabu_toyota_kosen-ac_jp/ESEZkkgBhVxGoIOU7R8vNv4BEhA8igGBFBaC7VWvxDMhMQ?e=5Jz4Iv
-https://kosenjp-my.sharepoint.com/:u:/g/personal/hirano_manabu_toyota_kosen-ac_jp/Efj7tqXQ8LxDgxRoSbKQ0oEBRH86bFPJx6775Qne8yuqmQ?e=RtEcTH
-https://kosenjp-my.sharepoint.com/:u:/g/personal/hirano_manabu_toyota_kosen-ac_jp/EbsLgwEsfBtNu930qJo9J9gB85Zw_13jpWRmyp3qZznjIQ?e=P3zvhw
-https://kosenjp-my.sharepoint.com/:u:/g/personal/hirano_manabu_toyota_kosen-ac_jp/EQcTkR7bsLFJqptyRnHZM30BpxRuo3MB258EMOffy7TPmw?e=HaGh22
-https://kosenjp-my.sharepoint.com/:u:/g/personal/hirano_manabu_toyota_kosen-ac_jp/ETfhU9l0z5VHqEQGpyYR-lkBo3HQwDAEGPq5-4AQZj9pEw?e=sTJLAP
-https://kosenjp-my.sharepoint.com/:u:/g/personal/hirano_manabu_toyota_kosen-ac_jp/ESIENiapiVBIspD78vwUVAwBuZ4syPXQW3cQsS-CEBTmdw?e=jlgIjq
-https://kosenjp-my.sharepoint.com/:u:/g/personal/hirano_manabu_toyota_kosen-ac_jp/EUwupaN6jSRCmr7jSnDWuEgBbPy5Q39WADSK6BOzmFaGYA?e=i27xbe
-https://kosenjp-my.sharepoint.com/:u:/g/personal/hirano_manabu_toyota_kosen-ac_jp/ESstSW8J2ttIvsjqMF6loecBqwH8J_j2NeK4g-av_f51Wg?e=Cv8THk
-https://kosenjp-my.sharepoint.com/:u:/g/personal/hirano_manabu_toyota_kosen-ac_jp/EWzbML82eXRAqVdVfQut3nMBRPMQHSLbYxbukezou6wQqg?e=8D0URb
-https://kosenjp-my.sharepoint.com/:u:/g/personal/hirano_manabu_toyota_kosen-ac_jp/ETYZtT6_vNFKlygAPkDqz2UB2aldnfaQIjxM9TiOKUEzZA?e=rOBYcR
+- https://kosenjp-my.sharepoint.com/:u:/g/personal/hirano_manabu_toyota_kosen-ac_jp/ESEZkkgBhVxGoIOU7R8vNv4BEhA8igGBFBaC7VWvxDMhMQ?e=5Jz4Iv
+- https://kosenjp-my.sharepoint.com/:u:/g/personal/hirano_manabu_toyota_kosen-ac_jp/Efj7tqXQ8LxDgxRoSbKQ0oEBRH86bFPJx6775Qne8yuqmQ?e=RtEcTH
+- https://kosenjp-my.sharepoint.com/:u:/g/personal/hirano_manabu_toyota_kosen-ac_jp/EbsLgwEsfBtNu930qJo9J9gB85Zw_13jpWRmyp3qZznjIQ?e=P3zvhw
+- https://kosenjp-my.sharepoint.com/:u:/g/personal/hirano_manabu_toyota_kosen-ac_jp/EQcTkR7bsLFJqptyRnHZM30BpxRuo3MB258EMOffy7TPmw?e=HaGh22
+- https://kosenjp-my.sharepoint.com/:u:/g/personal/hirano_manabu_toyota_kosen-ac_jp/ETfhU9l0z5VHqEQGpyYR-lkBo3HQwDAEGPq5-4AQZj9pEw?e=sTJLAP
+- https://kosenjp-my.sharepoint.com/:u:/g/personal/hirano_manabu_toyota_kosen-ac_jp/ESIENiapiVBIspD78vwUVAwBuZ4syPXQW3cQsS-CEBTmdw?e=jlgIjq
+- https://kosenjp-my.sharepoint.com/:u:/g/personal/hirano_manabu_toyota_kosen-ac_jp/EUwupaN6jSRCmr7jSnDWuEgBbPy5Q39WADSK6BOzmFaGYA?e=i27xbe
+- https://kosenjp-my.sharepoint.com/:u:/g/personal/hirano_manabu_toyota_kosen-ac_jp/ESstSW8J2ttIvsjqMF6loecBqwH8J_j2NeK4g-av_f51Wg?e=Cv8THk
+- https://kosenjp-my.sharepoint.com/:u:/g/personal/hirano_manabu_toyota_kosen-ac_jp/EWzbML82eXRAqVdVfQut3nMBRPMQHSLbYxbukezou6wQqg?e=8D0URb
+- https://kosenjp-my.sharepoint.com/:u:/g/personal/hirano_manabu_toyota_kosen-ac_jp/ETYZtT6_vNFKlygAPkDqz2UB2aldnfaQIjxM9TiOKUEzZA?e=rOBYcR
 
 ```
 cat RanSAP.tgz.* > RanSAP.tgz
