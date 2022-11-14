@@ -90,7 +90,7 @@ UNIX time in sec, UNIX time in ns, LBA, size, Entropy #1, Entropy #2
 1606365710,396368633,6571032,4096,0.32472664320367545,0.259486312315601
 ```
 
-Note: we did not use Entropy #2 in our paper. While Entropy #1 is calculated in every 4096-byte (4-KiB), Entropy #2 is sum of eight entropy that are calculated in every 256-byte. 
+Note: we did not use Entropy #2 in our paper. While Entropy #1 is calculated in every 4096-byte (4KiB), Entropy #2 is sum of eight entropy that are calculated in every 256-byte. 
 
 
 ## Frequency asked questions
