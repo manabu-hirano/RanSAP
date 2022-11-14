@@ -91,3 +91,28 @@ UNIX time in sec, UNIX time in ns, LBA, size, Entropy #1, Entropy #2
 ```
 
 Note: we did not use Entropy #2 in our paper. While Entropy #1 is calculated in every 4096-byte (4-KiB), Entropy #2 is sum of eight entropy that are calculated in every 256-byte. 
+
+
+## Frequency asked questions
+
+### Q. What tool you used for collecting storage access patterns?
+
+A. The tool we used to collect storage access patterns is a type-I lightweight hypervisor named BitVisor. We created a surveillance function on BitVisor (although the function we developed has not been released yet, you can download and use the original BitVisor from https://github.com/matsu/bitvisor).
+
+### Q. Is this dataset for dynamic or behavioral analysis?
+
+A. Yes. We presented the results of behavioral analysis on our paper based on storage access patterns. We trained the ML model using storage access patterns of the 7 ransomware samples with various conditions. 
+
+### Q. What do you mean by "access pattern" and "storage devices"?
+
+A. We used the word "storage access patterns" for the information of low-level input and output operations on storage devices (i.e., HDD/SSD). When the application runs on an OS, the application calls filesystem API of the OS, the OS then requests input and output operations to HDD/SSD via device driver; it usually uses Direct Memory Access to exchange the information between the OS and the HDD/SSD. We created a surveillance function in the hypervisor layer that collects such operations.
+
+### Q. How much ransomware samples you used? 
+
+A.  In our paper, we trained the ML model using access patterns of the seven ransomware samples with various conditions (e.g., HDD/SSD, 120GB/250GB, different set of decoy files). The dataset directory "original" includes access patterns of the seven ransomware samples. The dataset directory "extra", on the other hand, includes access patterns of 17 Sodinokibi (REvil) variants, those on Windows 2008R2, and those on BitLocker-enabled SSD.
+
+### Q. What do you mean by decoy files? What's the difference between "-w10dirs" (decoy files) and "-largefiles" (large decoy files)? 
+
+A. The decoy files means that files to be encrypted by ransomware samples. We expected that the behavioral patterns will change according to the number and the size of the decoy files because ransomware reads and writes many files in a short time.
+
+The suffix of "-w10dirs" means that ransomware samples were executed on Windows 7 with the directories containing about 9,872 files on the Desktop. The suffix of "-largefiles" means that ransomware samples were executed on Windows 7 with directories with relatively large files between 10MB and 100MB on the Desktop. Please read our paper for the detail.
