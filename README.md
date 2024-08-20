@@ -52,26 +52,26 @@ Some large CSV files are compressed in Zip; you can unzip all the files using un
 
 ```
 ===================
-ORIGINAL:
+TOTAL OF ORIGINAL:
 ===================
-NUMBER OF CSV FILES: ./dataset/original/
-	  261	 (CSV	  215	 ZIP	  46 )	 win7-120gb-hdd
-	  260	 (CSV	  129	 ZIP	  131 )	 win7-120gb-ssd
-	  262	 (CSV	  227	 ZIP	  35 )	 win7-250gb-hdd
-	  261	 (CSV	  140	 ZIP	  121 )	 win7-250gb-ssd
+NUMBER OF CSV DIRECTORIES: ./dataset/original/
+          261 win7-120gb-hdd
+          260 win7-120gb-ssd
+          262 win7-250gb-hdd
+          261 win7-250gb-ssd
 ===================
-EXTRA:
+TOTAL OF EXTRA:
 ===================
-NUMBER OF CSV FILES: ./dataset/extra/
-	  121	 (CSV	  58	 ZIP	  63 )	 win2008r2-250gb-ssd
-	  210	 (CSV	  1	 ZIP	  209 )	 win7-250gb-ssd
-	  120	 (CSV	  89	 ZIP	  31 )	 win7ent_bl-250gb-ssd
+NUMBER OF CSV DIRECTORIES: ./dataset/extra/
+          121 win2008r2-250gb-ssd
+          210 win7-250gb-ssd
+          120 win7ent_bl-250gb-ssd
 ===================
 TOTAL:
 ===================
-NUMBER OF CSV FILES: ./dataset/
-	  451	 (CSV	  148	 ZIP	  303 )	 extra
-	  1044	 (CSV	  711	 ZIP	  333 )	 original
+NUMBER OF CSV DIRECTORIES: ./dataset/
+          451 extra
+          1044 original
 ```
 
 ## CSV format
