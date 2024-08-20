@@ -1,19 +1,17 @@
-#!/usr/bin/bash
+usr/bin/bash
 
 DATA_REPO_DIR=.
 
-checkNumberOfCsvFile() {
+checkNumberOfCsvDir() {
   dir_path=$1
   if [ ! -d ${dir_path} ]; then
-	return
+        return
   fi
-  echo "NUMBER OF CSV FILES:" `echo $1` 
+  echo "NUMBER OF CSV DIRECTORIES:" `echo $1` 
   dirs=`find $dir_path -mindepth 1 -maxdepth 1 -type d | sort`
   for dir in $dirs;
   do
-     echo -en "\t " `find $dir -name "ata_write.*" | wc -l` 
-     echo -en "\t (CSV\t " `find $dir -name "ata_write.csv" | wc -l` 
-     echo -e "\t ZIP\t " `find $dir -name "ata_write.zip" | wc -l` ")\t" `basename $dir` 
+     echo -e "\t " `find $dir -name "ata_write.*" | wc -l` `basename $dir`
   done
 }
 
@@ -23,26 +21,25 @@ echo "==========="
 echo " ORIGINAL "
 echo "==========="
 for (( i=0; i < ${#dataset_types[@]}; i++)) {
-  checkNumberOfCsvFile "${DATA_REPO_DIR}/dataset/original/${dataset_types[$i]}"
+  checkNumberOfCsvDir "${DATA_REPO_DIR}/dataset/original/${dataset_types[$i]}"
 }
 echo "==================="
 echo "TOTAL OF ORIGINAL:"
 echo "==================="
-checkNumberOfCsvFile "${DATA_REPO_DIR}/dataset/original/"
+checkNumberOfCsvDir "${DATA_REPO_DIR}/dataset/original/"
 
 echo "==========="
 echo " EXTRA "
 echo "==========="
 for (( i=0; i < ${#dataset_types[@]}; i++)) {
-  checkNumberOfCsvFile "${DATA_REPO_DIR}/dataset/extra/${dataset_types[$i]}"
+  checkNumberOfCsvDir "${DATA_REPO_DIR}/dataset/extra/${dataset_types[$i]}"
 }
 echo "==================="
 echo "TOTAL OF EXTRA:"
 echo "==================="
-checkNumberOfCsvFile "${DATA_REPO_DIR}/dataset/extra/"
+checkNumberOfCsvDir "${DATA_REPO_DIR}/dataset/extra/"
 
 echo "==================="
 echo "TOTAL:"
 echo "==================="
-checkNumberOfCsvFile "${DATA_REPO_DIR}/dataset/"
-
+checkNumberOfCsvDir "${DATA_REPO_DIR}/dataset/"
